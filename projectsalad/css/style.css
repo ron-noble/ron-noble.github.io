@@ -9,3 +9,28 @@ body {
   background-color: #66BB6A;  
 }
 
+.icon-bar {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  background-color: #66BB6A;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: rgba(255, 255, 255, 0.856);
+}
+
+.active {
+  background-color: #4CAF50;
+}
